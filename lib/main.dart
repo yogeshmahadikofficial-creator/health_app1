@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:health_app/loginpage.dart';
 
 void main() {
   runApp(const Main());
@@ -14,6 +15,8 @@ class Main extends StatefulWidget {
 class _MainState extends State<Main> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: LoginPage(),
+    );
   }
 }
